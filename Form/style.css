@@ -1,0 +1,70 @@
+/* Page background and centering */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Form container */
+form {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+/* Labels */
+form label {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Text, password, tel, file, select, color */
+form input[type="text"],
+form input[type="password"],
+form input[type="tel"],
+form input[type="file"],
+form select,
+form input[type="color"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Checkboxes and radios spacing */
+form input[type="checkbox"],
+form input[type="radio"] {
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+/* Dropdown style */
+form select {
+    background-color: white;
+}
+
+/* Submit button (optional) */
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background: #45a049;
+}

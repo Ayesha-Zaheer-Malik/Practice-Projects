@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-container {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.question-block {
+  margin-bottom: 25px;
+}
+
+.question-block p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+  display: none;
+}
+
+/* Style labels as buttons */
+label {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Highlight selected */
+input[type="radio"]:checked + label {
+  background-color: #d0f0c0;
+  border-color: #4CAF50;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS file -->
+</head>
+<body>
+    <form action="">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="Username" >
+        <br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" >
+        <br>
+
+        <label for="Gender">Gender</label><br>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male">Male</label><br>
+
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label><br>
+
+        <input type="radio" id="Others" name="Gender" value="Others">
+        <label for="Others">Others</label><br>
+
+        <label for="Contact">Contact No</label><br>
+        <input type="tel" id="Contact" name="Contact" placeholder="+92...."> 
+        <br>
+
+        <label for="Interest">Area of Interest</label><br>
+        <input type="checkbox" id="dev" name="Interest">
+        <label for="dev">Development</label><br>
+
+        <input type="checkbox" id="design" name="Interest">
+        <label for="design">Designing</label><br>
+
+        <input type="checkbox" id="testing" name="Interest">
+        <label for="testing">Testing</label><br>
+
+        <input type="checkbox" id="deployment" name="Interest">
+        <label for="deployment">Deployment</label><br>
+
+        <input type="checkbox" id="smm" name="Interest">
+        <label for="smm">Social Media Marketing</label><br>
+
+        <input type="checkbox" id="cd" name="Interest">
+        <label for="cd">Customer Dealing</label><br> 
+
+        <select name="city" id="city">
+            <option value="" disabled selected>Select a city...</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Faislabad">Faislabad</option>
+            <option value="Multan">Multan</option>
+        </select> 
+        <br> 
+
+        <label for="file">Upload your picture here</label><br>
+        <input type="file" name="file" id="file">
+        <br> 
+         <label for="color">Pick a color:</label>
+<input type="color" name="color" id="color"> <br>
+<button id="submit" onclick="Submit_btn()"> Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
